@@ -43,14 +43,14 @@ e<html lang="en">
 <body>
    <?php
 
-   interface bintang
+   interface turu
    {
       public function Makan();
       public function Berjalan();
       public function Bersuara();
       public function Sepeda();
    }
-   class Monyet implements bintang
+   class Monyet implements turu
    {
       public function Makan()
       {
@@ -72,7 +72,7 @@ e<html lang="en">
       }
    }
 
-   class Lainnya implements bintang
+   class Lainnya implements turu
    {
       public function Makan()
       {
